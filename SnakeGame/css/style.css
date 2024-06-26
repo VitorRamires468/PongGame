@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.snake-game {
+  overflow: hidden;
+  position: relative;
+  margin: 100px auto;
+  background: black;
+  width: 600px;
+  height: 400px;
+}
+
+.snake {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto auto;
+  width: 20px;
+  height: 20px;
+  background-color: green;
+}
+
+.apple {
+  display: none;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto auto;
+  width: 20px;
+  height: 20px;
+  box-sizing: border-box;
+}
+
+.apple-icon {
+  width: 10px;
+  height: 10px;
+  margin: 5px;
+  background: red;
+}
