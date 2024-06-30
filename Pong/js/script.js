@@ -76,7 +76,8 @@ const ballColision = () => {
   }
 
   if (score2 === 50 || score1 === 50) {
-    restartGame(5);
+    resetGame(0);
+    restartGame();
   }
 };
 
@@ -125,6 +126,7 @@ function playAgain() {
   scorePlayer1.innerHTML = "00";
   scorePlayer2.innerHTML = "00";
   gameOver.style.display = "none";
+  resetGame(5);
 }
 
 let interval;
