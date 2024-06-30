@@ -1,2 +1,3 @@
-# SnakeGame1.0
-I tried to develop a simple Snake game all by myself. I'll study some more and then show you guys a complete and better version.
+# Pong Game
+
+I tried to develop a Pong game where I could use some knowledge I acquired and put my developer skills into practice.
